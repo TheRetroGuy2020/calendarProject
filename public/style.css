@@ -1,0 +1,154 @@
+body,html {
+    height: 100%;
+    margin: 0;
+  }
+
+p {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.bg-img {
+    background-image: url('./images/background.JPG');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.time-box {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(110, 110, 110, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(10px);
+    color: white;
+    font-weight: bold;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 30px;
+    height: 200px;
+    width: 425px;
+}
+.time-content{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+}
+.time {
+    margin: 0;
+    font-size: 120px;
+    padding-left: 2%;
+}
+.am-pm {
+    margin: 0;
+    font-size: 40px;
+}
+
+.date {
+    margin:0;
+    font-size: 30px;
+    padding-left: 4%;
+}
+
+.weather-box {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(110, 110, 110, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(10px);
+    color: white;
+    font-weight: bold;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 70%;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 30px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.weather-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.w-img {
+    margin: 2px;
+}
+
+.w-time{
+    font-size: x-large;
+}
+
+.w-temp {
+    font-size: large;
+}
+
+.planner-box {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(110, 110, 110, 0.4); /* Black w/opacity/see-through */
+    backdrop-filter: blur(10px);
+    color: white;
+    font-weight: bold;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 30px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.today {
+    align-content: center;
+}
+
+.today p{
+    margin: 0px;
+    font-size: 50px;
+}
+
+.items-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: baseline;
+}
+
+.planner-content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.p-time {
+    margin:0;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.p-text {
+    margin:0;
+    font-size: 25px;
+    padding: 5px;
+}

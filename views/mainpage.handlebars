@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Calendar Board</title>
+
+    <!-- This is a 3rd-party stylesheet to make available the font family to be used for this page ("Roboto"). -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css" media="screen">
+
+    <script src="/index.js" charset="utf-8" defer></script>
+
+  </head>
+
+  <body>
+    <div class = "bg-img"></div>
+    <main class = "info-container">
+        <article class = "time-box">
+        {{#if errorBool}}
+            {{>error}}
+        {{#else}}
+            {{>time}}
+        </article>
+        <article class = "weather-box">
+            {{#each weatherstats}}
+            {{>weather}}
+            {{/each}}
+        </article>
+        <article class="planner-box">
+            <div class = "today">
+                <p>
+                    Today:
+                </p>
+            </div>
+            <article class = "items-box">
+                <div class = "planner-content">
+                    <p class = "p-time">
+                        2:00 PM
+                    </p>
+                    <p class = "p-text">
+                        Assignment 5
+                    </p>
+                </div>
+                <div class = "planner-content">
+                    <p class = "p-time">
+                        2:00 PM
+                    </p>
+                    <p class = "p-text">
+                        Assignment 5
+                    </p>
+                </div>
+                <div class = "planner-content">
+                    <p class = "p-time">
+                        2:00 PM
+                    </p>
+                    <p class = "p-text">
+                        Assignment 5
+                    </p>
+                </div>
+                <div class = "planner-content">
+                    <p class = "p-time">
+                        2:00 PM
+                    </p>
+                    <p class = "p-text">
+                        SUS 102
+                    </p>
+                </div>
+                <div class = "planner-content">
+                    <p class = "p-time">
+                        2:00 PM
+                    </p>
+                    <p class = "p-text">
+                        SUS 102
+                    </p>
+                </div>
+                <div class = "planner-content">
+                    <p class = "p-time">
+                        2:00 PM
+                    </p>
+                    <p class = "p-text">
+                        SUS 102
+                    </p>
+                </div>
+            </article>
+        </article>
+    </main>
+  </body>

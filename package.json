@@ -1,0 +1,26 @@
+{
+  "name": "calendarproject",
+  "version": "1.0.0",
+  "description": "Calendar/info board for room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRetroGuy2020/calendarProject.git"
+  },
+  "author": "TheRetroGuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRetroGuy2020/calendarProject/issues"
+  },
+  "homepage": "https://github.com/TheRetroGuy2020/calendarProject#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "nodemon": "^2.0.12"
+  }
+}
